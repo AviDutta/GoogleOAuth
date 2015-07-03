@@ -15,6 +15,15 @@ Getting Started
 - Run the sample on your Android device or emulator.
 - The running sample allows Google accounts on the device to sign-in.
 
+How to configure in Android-Studio
+----------------------------------
+
+ - Go to Project Structure -> Signing: Add config using the debug.keystore with:
+ Key Alias: androiddebugkey
+ Key Password: android
+ Store Password: android
+ - Go to build type -> set "Signing Config" as config.
+ 
 Screenshots
 -----------
 ![Screenshot](app/src/main/sign-in-sample.png)
